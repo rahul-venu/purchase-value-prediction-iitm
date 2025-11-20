@@ -32,6 +32,7 @@ purchaseValue (continuous target)
 The competition uses R² score as the official evaluation metric.
 
 # 📂 Repository Structure
+```bash
 ├── data/
 │   ├── external/         # Documentation, data dictionary, kaggle link
 │   └── raw/              # Raw data (Training & Test Csv's)
@@ -49,6 +50,7 @@ The competition uses R² score as the official evaluation metric.
 ├── .gitignore
 ├── README.md
 └── LICENSE
+```
 Note: Dataset is not included in the repository due to Kaggle terms of use.
 
 # 🔍 Key Approaches Used
@@ -63,5 +65,18 @@ Correlation matrix
 Session-level analysis
 
 User-level aggregation
+
+## 2️⃣ Preprocessing
+
+Handled missing values
+
+Min-max scaling for continuous features
+
+Frequency-based encoding for categorical features
+
+Rank encoding & target encoding for high-cardinality features
+
+PCA for dimensionality reduction
+
 
 
