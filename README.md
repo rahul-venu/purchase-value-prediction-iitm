@@ -78,5 +78,95 @@ Rank encoding & target encoding for high-cardinality features
 
 PCA for dimensionality reduction
 
+## 🧠 Model
+This project was a regression model, the goal of this was to try out 3 models and create the submission on the best model.
+
+Models tested:
+1. XGBOOST Regeressor
+2. LightGBM Regressor
+3. RandomForest Regressor
+
+This project uses a regression-based approach to predict the continuous target variable purchaseValue.
+
+Initially, multiple methods were explored to address the zero-inflation problem (Since ≈80% of users had purchaseValue = 0):
+
+| Method Tried            | Description                                                                          | Result               |
+| ----------------------- | ------------------------------------------------------------------------------------ | -------------------- |
+| Log transform on target | Applied log(1 + purchaseValue) to normalize skew and reduce zero-inflation           | **Best performance** |
+
+## 🔍 Approach
+
+The log-transformed regression method delivered the highest R² score on the validation set.
+
+The target was transformed as:
+
+y_log = log(1 + purchaseValue)
+
+After prediction, the exponential inverse transform was applied:
+
+purchaseValue = exp(y_log_pred) - 1
+
+## 🤖 Models Evaluated
+
+| Model                                     | Notes                                            |
+| ----------------------------------------- | ------------------------------------------------ |
+| XGBoost Regressor                         | Performed well but prone to overfitting          |
+| LightGBM Regressor                        | Competitive score, fast training                 |
+| **RandomForest Regressor (Final Choice)** | **Best performance with log-transformed target** |
+
+## 🏁 Final Result
+
+The RandomForest Regressor trained on the log-transformed target generated the highest public test score and was used to produce the final Kaggle submission.
+
+## 💡 What I Learned
+
+This project helped me strengthen skills in:
+
+End-to-end ML pipeline design
+
+Working with large behavioral datasets
+
+Handling zero-inflated regression
+
+Best practices for Kaggle competitions
+
+Feature engineering & advanced encodings
+
+Model tuning & evaluation
+
+## 🛠 Tech Stack
+
+Python
+
+Pandas, NumPy
+
+Scikit-learn
+
+LightGBM
+
+Matplotlib / Seaborn
+
+Kaggle Notebooks
+
+## 📎 Links
+
+🔗 **Kaggle Project Page:** [Notebook Link](https://www.kaggle.com/code/rahulvenu13/23ds1000053-notebook-t22025/)
+🔗 **Competition Link:** [Kaggle Competition](https://www.kaggle.com/competitions/engage-2-value-from-clicks-to-conversions)
+
+## 🤝 Contact
+
+If you’d like to discuss this project or opportunities:
+
+Rahul Venu
+<p>
+📧 <a href="rahulvenuklr@gmail.com" targets="_blank">Email</a><br>
+💼 <a href="https://www.linkedin.com/in/rahulvs13" target="_blank">LinkedIn</a><br>
+🐙 <a href="https://github.com/rahul-venu" target="_blank">GitHub</a>
+</p>
+
+
+
+
+
 
 
