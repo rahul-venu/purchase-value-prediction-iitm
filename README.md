@@ -158,11 +158,12 @@ Kaggle Notebooks
 If you’d like to discuss this project or opportunities:
 
 Rahul Venu
+📧 **Email:** rahulvenuklr@gmail.com
 <p>
-📧 <a href="mailto:rahulvenuklr@gmail.com?subject=Project%20Inquiry&body=Hello%20Rahul,"target="_blank" rel="noopener noreferrer">Email</a>
 💼 <a href="https://www.linkedin.com/in/rahulvs13/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 🐙 <a href="https://github.com/rahul-venu" target="_blank" rel="noopener noreferrer">GitHub</a>
 </p>
+
 
 
 
