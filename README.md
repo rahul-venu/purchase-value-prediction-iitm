@@ -142,7 +142,7 @@ Pandas, NumPy
 
 Scikit-learn
 
-XGBOOST/LightGBM/RandomForest Regressor
+XGBOOST / LightGBM / RandomForest Regressor
 
 Matplotlib / Seaborn
 
@@ -157,13 +157,14 @@ Kaggle Notebooks
 
 If you’d like to discuss this project or opportunities:
 
-Rahul V S
+RAHUL V S
 
 📧 **Email:** rahulvenuklr@gmail.com
 <p>
 💼 <a href="https://www.linkedin.com/in/rahulvs13/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 🐙 <a href="https://github.com/rahul-venu" target="_blank" rel="noopener noreferrer">GitHub</a>
 </p>
+
 
 
 
