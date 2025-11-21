@@ -142,7 +142,7 @@ Pandas, NumPy
 
 Scikit-learn
 
-LightGBM
+XGBOOST/LightGBM/RandomForest Regressor
 
 Matplotlib / Seaborn
 
@@ -164,6 +164,7 @@ Rahul V S
 💼 <a href="https://www.linkedin.com/in/rahulvs13/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 🐙 <a href="https://github.com/rahul-venu" target="_blank" rel="noopener noreferrer">GitHub</a>
 </p>
+
 
 
 
