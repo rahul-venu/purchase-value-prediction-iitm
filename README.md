@@ -150,8 +150,8 @@ Kaggle Notebooks
 
 ## 📎 Links
 
-🔗 **Kaggle Project Page:** [Notebook Link](https://www.kaggle.com/code/rahulvenu13/23ds1000053-notebook-t22025/)
-🔗 **Competition Link:** [Kaggle Competition](https://www.kaggle.com/competitions/engage-2-value-from-clicks-to-conversions)
+* 🔗 **Kaggle Project Page:** [Notebook Link](https://www.kaggle.com/code/rahulvenu13/23ds1000053-notebook-t22025/)
+* 🔗 **Competition Link:** [Kaggle Competition](https://www.kaggle.com/competitions/engage-2-value-from-clicks-to-conversions)
 
 ## 🤝 Contact
 
